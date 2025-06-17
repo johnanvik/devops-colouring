@@ -6,12 +6,12 @@ Also, waiting for batches of drawings is taking too long. You need your drawings
 With new car and boat drawings now on in the market, these drawings don't sell as well as before and their prices have dropped, as well as dog, cat and bird prices dropping lower.
 
 # Actions This Sprint
-## Contract Drawings
-1. Change the Price label on any remaining items with a Market status (see table) and their Batch size to 1.
+## Setup
+1. Change the Price label on any remaining items with a Market status (see table) and their Batch Size to 1.
 1. Select a drawing for each of the two new categories (top two rows).
 1. Create issues in GitHub that have the following characteristics:
       - Status: Market
-      - Labels: \<Batch Size>, \<Price>
+      - Labels: Batch Size - 1, \<Price>
       - Description: \<URL of the Drawing to be Coloured>
  
    
@@ -26,8 +26,18 @@ With new car and boat drawings now on in the market, these drawings don't sell a
 | Bird | https://www.online-coloring.com/26-printables-birds/ | 1 | 4 | 16 | - |
 
 
- ## Accept and Pay for Drawings
-- Examine the issues with the Production status.
+ ## Sprint Execution
+1. Examine the issues with the Production status.
    - If your expectations are met, change the issue's status to Accepted.
    - If your expectations are not met, add a comment about what is wrong and set the issue's status to Development for the team that created it.
       - You immediately reject any drawing for a development team that has not asked what your expectations are!
+1. Continue adding new drawing requests, if there are no items in Production.
+
+## Sprint Review
+Discuss with your team (Business) the following three questions:
+1. What are the top two things that went well?
+1. What are the top two things that did not go so well?
+1. What are two changes your team would like to make in the next sprint?
+
+## Sprint Retrospective
+Complete the Sprint Retrospective Survey (URL) as team.

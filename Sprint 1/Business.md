@@ -7,7 +7,7 @@ You are an art expert in the world of children's coloured drawings. You know wha
 - Respond to any clarifications request by the development team.
 
 # Actions This Sprint
-## Contract Drawings
+## Setup
 1. Select a drawing for each of the following categories from the provided URLs.
 1. Create issues in GitHub that have the following characteristics:
       - Status: Market
@@ -22,8 +22,17 @@ You are an art expert in the world of children's coloured drawings. You know wha
 | Bird | https://www.online-coloring.com/26-printables-birds/ | 4 | 75 | 16 | 4 issues |
 
 
- ## Accept and Pay for Drawings
+ ## Sprint Execution
 - Examine the issues with the Production status.
    - If your expectations are met, change the issue's status to Accepted.
    - If your expectations are not met, add a comment about what is wrong and set the issue's status to Development for the team that created it.
       - You immediately reject any drawing for a development team that has not asked what your expectations are!
+
+## Sprint Review
+Discuss with your team (Business) the following three questions:
+1. What are the top two things that went well?
+1. What are the top two things that did not go so well?
+1. What are two changes your team would like to make in the next sprint?
+
+## Sprint Retrospective
+Complete the Sprint Retrospective Survey (URL) as team.
