@@ -8,7 +8,7 @@ This work modifies the original game to use GitHub's issue tracking and planning
 * Introduce or reinforce the use of ITS and Agile Planning Boards.
 * Provide a means for instructors to share and improve the materials, as well as replicate the game's use in their own classrooms.
 
-The primary activity in the game is creating coloured drawings using an online tool [Tool](ToolURL). The flow of the game is as follows:
+The primary activity in the game is creating coloured drawings using an online tool [Online Colouring](https://www.online-coloring.com/). The flow of the game is as follows:
 1. The *Buisness* chooses a set of colouring pages from the online colouring page repository and creates an issue. Each request as a batch size (i.e. number of colouring pages to be completed) and a price (points the team earns for successful completion). They evaluate issues that have been pushed to _Production_ and accpet or reject the product.
 2. *Developer* team members choose which requests they will fulfill and complete enough colouring pages to meet the batch requirement. Each completed page is attached to its own issue within the ITS.
 3. *Testing* team members check that all parts of the drawing are coloured.
