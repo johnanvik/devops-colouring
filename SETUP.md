@@ -1,3 +1,3 @@
 # Setting Up the Activity
-1. Fork the repo
+1. "Use template" to create copy of repo
 2. In Settings, turn on Issues
