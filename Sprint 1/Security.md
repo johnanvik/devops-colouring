@@ -17,6 +17,7 @@ You are a security engineer for a children's colouring drawing company.
 - **Batch Size 6**
    - Roll a [8-sided die](https://rolladie.net/roll-a-d8-die)
    - _Security Flaw_: Rolled a 7 or 8.
+2. Clicking the link will roll the die.
 
 ## Sprint Execution
 1. Monitor the "Security" board for released batches of drawings.
