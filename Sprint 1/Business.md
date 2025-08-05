@@ -8,12 +8,38 @@ You are an art expert in the world of children's coloured drawings. You know wha
 
 # Actions This Sprint
 ## Setup
-1. Select a drawing for each of the following categories from the provided URLs.
+1. Select a drawing URL from the following categories. (You can choose the same URL more than once.)
+   - **Dog** (_Batch Size: 6, Price: 150_) Max: 3 issues
+      1. Puppy Sitting
+         - [https://www.online-coloring.com/coloring-page/cute-puppy-sitting-on-ground-1658.html](https://www.online-coloring.com/coloring-page/cute-puppy-sitting-on-ground-1658.html)
+      3. Puppy Lying Down
+         - [https://www.online-coloring.com/coloring-page/cute-puppy-lying-on-the-floor-1657.html](https://www.online-coloring.com/coloring-page/cute-puppy-lying-on-the-floor-1657.html)
+      5. Dog House
+         - [https://www.online-coloring.com/coloring-page/dog-house-1363.html](https://www.online-coloring.com/coloring-page/dog-house-1363.html)  
+
+   - **Cat** (_Batch Size: 4, Price: 100_)
+     1. Cute Kitten
+        - [https://www.online-coloring.com/coloring-page/lovely-cat-1673.html](https://www.online-coloring.com/coloring-page/lovely-cat-1673.html)
+     3. Fuzzy Kitten
+        - [https://www.online-coloring.com/coloring-page/kitten-1053.html](https://www.online-coloring.com/coloring-page/kitten-1053.html)
+     5. Cartoon Kitten
+        - [https://www.online-coloring.com/coloring-page/cartoon-kitten-822.html](https://www.online-coloring.com/coloring-page/cartoon-kitten-822.html)
+
+   - **Bird** (_Batch Size: 2, Price: 75_)
+     1. Owl
+        - [https://www.online-coloring.com/coloring-page/halloween-owl-1425.html](https://www.online-coloring.com/coloring-page/halloween-owl-1425.html)
+     3. Pigeon
+        - [https://www.online-coloring.com/coloring-page/cartoon-pigeon-989.html](https://www.online-coloring.com/coloring-page/cartoon-pigeon-989.html)
+     5. Cartoon Bird
+        - [https://www.online-coloring.com/coloring-page/cartoon-bird-811.html](https://www.online-coloring.com/coloring-page/cartoon-bird-811.html)
+          
 1. Create issues in GitHub that have the following characteristics:
       - Status: Market
       - Labels: \<Batch Size>, \<Price>
       - Description: \<URL of the Drawing to be Coloured>
- 
+
+
+
    
 | Category | URL | Batch Size | Price | Demand | Issues (Total) |
 |-|-|-|-|-| -|
