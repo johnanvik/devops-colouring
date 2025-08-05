@@ -9,6 +9,7 @@
 See https://www.blinkops.com/blog/how-to-add-collaborators-to-your-github-repository
 
 Use script at https://josh-ops.com/posts/github-script-to-add-users-to-teams/
+- Collaborator needs write access?
 
 Collaborators need to accept the invite before they can be added to the project.
 Script to add to project?
