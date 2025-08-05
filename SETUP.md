@@ -9,3 +9,6 @@
 See https://www.blinkops.com/blog/how-to-add-collaborators-to-your-github-repository
 
 Use script at https://josh-ops.com/posts/github-script-to-add-users-to-teams/
+
+# Training
+TODO: Create a tutorial video showing how to use GitHub project (or find one?)
