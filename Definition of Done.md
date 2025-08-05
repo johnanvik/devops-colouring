@@ -3,6 +3,7 @@ A product is considered completed if the following are true:
 
 ## Single Product
 1. An issue contains an attachment where all parts of the drawing are coloured. 
+    - The correct drawing was coloured (i.e. the developer used the correct URL)
     - White is not a valid colour within a drawing.
     - The background of a drawing may be white or coloured.
 
