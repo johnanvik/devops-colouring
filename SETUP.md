@@ -4,3 +4,8 @@
 3. Go to Projects
 4. Click "New project"
 5. Select "DevSecOps Adventure" from "From your organization"
+
+# Adding Collaborators
+See https://www.blinkops.com/blog/how-to-add-collaborators-to-your-github-repository
+
+Use script at https://josh-ops.com/posts/github-script-to-add-users-to-teams/
