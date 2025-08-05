@@ -3,20 +3,31 @@ You are a security engineer for a children's colouring drawing company.
 
 # What You Do
 - Verify that completed drawings do not contain a security flaw.
-- To simulate finding a security flaw, you will flag any issue whose issue id number is a factor of a number that you will choose.
+- To simulate finding a security flaw, you will roll a die depending on the number of items in a release batch.
 
 # Actions This Sprint
 ## Setup
-1. Select a random prime number from the set [3, 5, 7]
+1. Depending on the size of the release batch, roll a different die:
+- **Batch Size 2**
+   - Roll a [4-sided die](https://rolladie.net/roll-a-d4-die)
+   - _Security Flaw_: Rolled a 4.
+- **Batch Size 4**
+   - Roll a [6-sided die](https://rolladie.net/roll-a-d6-die)
+   - _Security Flaw_: Rolled a 5 or 6.
+- **Batch Size 6**
+   - Roll a [8-sided die](https://rolladie.net/roll-a-d8-die)
+   - _Security Flaw_: Rolled a 7 or 8.
 
 ## Sprint Execution
 1. Monitor the "Security" board for released batches of drawings.
-1. If an issue id in the release package is a factor of number you chose:
-   - Add a comment indicating that one of the issues has a security flaw.
+2. Roll a die for each issue that appears in the "Security" board.
+1. **Security flaw**:
+   - Choose one of the items to have the flaw.
+   - Add a comment to the issue.
         - Example: "Issue 7 has a security flaw - redo"
         - Example: "Issue 7 - A blue nose on a dog is a security flaw"
    - Set the status to "Development - \<Team Number>"
-1. If no issues in the release package is a factor of your chosen number:
+1. **No security flaw**:
     - Change the status to "Deployment"
 
 ## Sprint Review
