@@ -5,22 +5,29 @@ The public is now demanding drawings of cars and boats. These will fetch bigger 
 
 # Actions This Sprint
 ## Setup
-1. Change the Price label on any remaining items with a Market status (see table)
-1. Select a drawing for each of the two new categories (top two rows).
+1. Change the Price label on any remaining items with a Market status:
+   - Dog: 75 (max: 3 issues)
+   - Cat: 50 (max: 2 issues)
+   - Bird: 35 (max: 4 issues)
+1. Select drawings from the two new categories:
+   - **Car** (_Batch Size: 3, Price: 150_) Max: 5 issues
+     1. Volkswagen Bus
+        - [https://www.online-coloring.com/coloring-page/cartoon-volkswagen-bus-1634.html](https://www.online-coloring.com/coloring-page/cartoon-volkswagen-bus-1634.html)
+     3. Two-Seat Convertible
+        - [https://www.online-coloring.com/coloring-page/two-seat-convertible-car-858.html](https://www.online-coloring.com/coloring-page/two-seat-convertible-car-858.html)
+     5. Land Rover
+        - [https://www.online-coloring.com/coloring-page/land-rover-4x4-1387.html](https://www.online-coloring.com/coloring-page/land-rover-4x4-1387.html)
+   - **Boat** (_Batch Size: 4, Price: 175_) Max: 4 issues
+     1. Steamboat
+        - [https://www.online-coloring.com/coloring-page/little-steamboat-350.html](https://www.online-coloring.com/coloring-page/little-steamboat-350.html)
+      1. Sailboat
+         - [https://www.online-coloring.com/coloring-page/sailing-boat-over-the-blue-waves-520.html](https://www.online-coloring.com/coloring-page/sailing-boat-over-the-blue-waves-520.html)
+      1. Submarine
+         -[https://www.online-coloring.com/coloring-page/yellow-submarine-854.html](https://www.online-coloring.com/coloring-page/yellow-submarine-854.html) 
 1. Create issues in GitHub that have the following characteristics:
       - Status: Market
       - Labels: \<Batch Size>, \<Price>
       - Description: \<URL of the Drawing to be Coloured>
- 
-   
-| Category | URL | Batch Size | Price | Demand | Issues (Total) |
-|----------|-----|------------|-------|--------|---|
-| Car | https://www.online-coloring.com/22-printables-cars | 3 | 150 | 15 | 5 issues|
-| Boat | https://www.online-coloring.com/106-printables-boats | 4 | 175 | 16 | 4 issues|
-| Dog | https://www.online-coloring.com/4-printables-dogs | 5 | 75 | 15 | 3 issues |
-| Cat | https://www.online-coloring.com/5-printables-cats/ | 3 | 50 | 6 | 2 issues |
-| Bird | https://www.online-coloring.com/26-printables-birds/ | 4 | 35 | 16 | 4 issues|
-
 
  ## Sprint Execution
 1. Examine the issues with the Production status.
