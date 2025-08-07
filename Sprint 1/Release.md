@@ -5,10 +5,24 @@ You are a release engineer for a children's colouring drawing company.
 Create release packages to be moved to production.
 
 # Actions This Sprint
+## Spring Planning
+1. Click on the "Release" tab at the top of the project window.
+
 ## Sprint Execution
-1. Monitor the "Release" board for completed issues.
-1. Add links and labels to the "Sprint Planning" issue to match the Definition of Done for a deployment package.
-1. Set Status to "Security"
+1. Monitor the "Release" column for completed issues.
+1. Once there are enough issues for the same drawing to match the batch size
+   - Note the issue ids for the issues to be batched.
+   - Click "Add item" at the bottom of the column
+   - Enter the name of the drawing (e.g. "St. Benard")
+   - Click Create
+1. Batch the drawings
+   - Click on the newly created issue.
+   - Click the down arrow of the "Create sub-issue" drop down.
+   - Select "Add existing issue"
+   - Enter the id of an issue to be batched.
+   - Click on the listed issue
+   - Continue adding issues until the number of subissues matches the batch size.
+1. Set the issue Status to "Security"
 
 ## Sprint Review
 Discuss with your team (Release and System Admin) the following three questions:
