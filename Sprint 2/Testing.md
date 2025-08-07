@@ -11,7 +11,7 @@ You will also train one other person on how to test a product, and yourself beco
    - This person will now be able to examine drawings and set the status to "Release".
 
 ## Sprint Planning
-1. As a development team, select a request from the “Market” and changes status to Sprint Planning - \<Team Number>
+1. As a development team, select a request from the “Market” and changes status to Sprint Planning - Team <#>
 
 ## Sprint Execution
 1. Examine completed drawings as before.
