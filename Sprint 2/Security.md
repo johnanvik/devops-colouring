@@ -9,16 +9,22 @@ You will also become cross-trained in one other role, to help with any bottlenec
 
 # Actions This Sprint
 ## Setup
+1. Explain to each development team how to know if their issue will have a securoty flaw.
+    - This will allow the developers to identify and address a security issue early in the development process.
+    - This process is known as "shifting left"
 1. Select a random prime number from the set [3, 5, 7, 11]
     - Tell the development and testing team what this number is.
     - Explain how that number is used to identify a security flaw.
-        - This will allow the team to identify and address a security issue early in the development process.
+        
 1. Talk to one other person and explain what you do.
-   - This person will now be able to set items in "Security" to "Deployment" status.
-1. Add the "Development - \<Team Number>" and "Testing - \<Team Number>" status to the Securoty board.
+   - This person will now be able to check issues for security flaws and set items in "Security" to "Deployment" status.
+1. For each development and testing team you are responsible for:
+   - Find the filter text box that says "status:Security"
+   - Add "status:Development - Team <#>"
+   - Add "status:Testing - Team <#>"
 
 ## Sprint Execution
-1. Monitor the "Development - \<Team Number>" and "Testing - \<Team Number>" issues for the "Hacked" label.
+1. Monitor the "Development - Team <#>" and "Testing - Team <#>" issues for the "Hacked" label.
     - Change the "Hacked" label to "Compromised"
     - Change the status to "Security"
 1. Fulfill whatever role you were cross-trained in, as needed. 
