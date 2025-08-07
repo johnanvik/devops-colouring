@@ -11,17 +11,23 @@ You will also train one other person on how to create a product, and yourself be
    - This person will now be able to create coloured drawings.
 
 ## Sprint Planning
-1. As a development team, select a request from the “Market” and changes status to Sprint Planning - \<Team Number>
-1.	Create a new issue with the URL from the select issue for completing one item in the batch
-1. Assign the created issue to yourself.
+1. As a development team, select a request from the “Market” and change the status to "Development - Team <#>"
+1. Create a new issue with the URL from the selected issue for completing one item in the batch
+1. Copy the URL for the drawing to the issue
+1. Assign the created issue to yourself.   
+1. Label the issue with the Batch Size, Price and Team number.
+1. Close the issue window.
+1. Discuss with the Security person how to know if your issue will have a security flaw.
+   - This process is known as "shifting left"
+   - If your issue will have a security flaw, create a new issue and check again. (Play fair!)
+     - [4-sided die](https://rolladie.net/roll-a-d4-die)
+1. Wait for the start of the sprint.
 
 ## Sprint Execution
 1. Complete your assigned issue(s).
     1. Colour a drawing to meet the Definition of Done for a single product.
     1. Attach the completed drawing to your assigned issue.
     1. Set the Status to “Testing – Team <#>”
-1. If the id of the created issue will trigger a security flaw:
-    1. Create a new issue with a different issue id.
 1. If an issue is labeled with "Hacked"
     - Wait until the label has been changed to "Patched" to submit to Testing.
 1. If an issue is returned as not meeting the client's needs:
