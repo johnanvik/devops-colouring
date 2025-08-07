@@ -10,14 +10,14 @@ The public is now demanding drawings of cars and boats. These will fetch bigger 
    - Cat: 50 (max: 2 issues)
    - Bird: 35 (max: 4 issues)
 1. Select drawing URLs from the following categories. (You can choose the same URL more than once.)
-   - **Car** (_Batch Size: 3, Price: 150_) Max: 5 issues
+   - **Car** (_Batch Size: 4, Price: 150_) Max: 5 issues
      1. Volkswagen Bus
         - [https://www.online-coloring.com/coloring-page/cartoon-volkswagen-bus-1634.html](https://www.online-coloring.com/coloring-page/cartoon-volkswagen-bus-1634.html)
      3. Two-Seat Convertible
         - [https://www.online-coloring.com/coloring-page/two-seat-convertible-car-858.html](https://www.online-coloring.com/coloring-page/two-seat-convertible-car-858.html)
      5. Land Rover
         - [https://www.online-coloring.com/coloring-page/land-rover-4x4-1387.html](https://www.online-coloring.com/coloring-page/land-rover-4x4-1387.html)
-   - **Boat** (_Batch Size: 4, Price: 175_) Max: 4 issues
+   - **Boat** (_Batch Size: 6, Price: 175_) Max: 4 issues
      1. Steamboat
         - [https://www.online-coloring.com/coloring-page/little-steamboat-350.html](https://www.online-coloring.com/coloring-page/little-steamboat-350.html)
       1. Sailboat
