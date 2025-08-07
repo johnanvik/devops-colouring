@@ -13,9 +13,9 @@ You will also train one other person on how to deploy products to production, an
 1. Add the Security status to the System Admin board.
 
 # Sprint Execution
-1. Set status of issue to "Production" for issues with status "Deployment"
+1. Set issues with status "Deployment" to status "Production"
 1. Replace "Compromised" label with "Patched" label for issues with status "Security"
-    - Change the Status to "Development - \<Team Number>"
+    - Change the Status to "Development - Team <#>"
 1. Fulfill whatever role you were cross-trained in, as needed.
 
 ## Sprint Review
