@@ -5,30 +5,33 @@ You are a software developer for a children's colouring drawing company. However
 - Colour a children's drawing.
 
 # Actions This Sprint
-## Setup
-1. Create an issue requesting creation of development environment
-    - In the description put:
-        - GitHub user name: \<GitHub id>
-        - Environment: “Development - \<Team Number>”
-    - Set the status to "Environment Creation"
-1. Once the enviroment (i.e. GitHub view) is created for you by the System Administrator, you will use it for the rest of the activity.
-
 ## Sprint Planning
-1. As a development team, select a request from the “Market” and changes status to "Sprint Planning - \<Team Number>"
-1.	Create a new issue with the URL from the select issue for completing one item in the batch
+1. As a development team, select a request from the “Market” and change the status to "Development - Team <#>"
+1. Create a new issue with the URL from the selected issue for completing one item in the batch
+   - Click "Add item" at the bottom of the "Development - \<Team Number>" column to create a new issue.
+   - Enter a description of how you plan to complete the drawing (e.g. "Blue Dog")
+   - Copy the URL for the drawing into the issue's "Description" textbox.
+   - Click "Create" 
 1. Assign the created issue to yourself.
+   - Click on the newly created issue in the "Development - \<Team Number>" column
+   - Click "Assign yourself" in the "Assignees" section on the right-side of the issue screen.
 
 ## Sprint Execution
 1. Complete your assigned issue(s).
     1. Colour a drawing to meet the Definition of Done for a single product.
+       - You may need to open the URL in a private browsing window if you are getting pop-ups about sharing your drawing.
     1. Attach the completed drawing to your assigned issue.
+       - Download the drawing (middle button at bottom of drawing canvas that looks like a floppy disk)
+       - **Leave the drawing window open in case you need to change your drawing.**
     1. Set the Status to “Testing – Team <#>”
 1. If an issue is returned with a security flaw:
     1. Close the issue.
-    1. Create a new issue with a different image.
+    1. Create a new issue and attach your image to it.
 1. If an issue is returned as not meeting the client's needs:
     1. Remove the incorrect drawing.
-    1. Create a new drawing that addresses the client's needs.
+    1. Modify your drawing to address the client's needs.
+    2. Attach the new drawing to the issue
+    3. Set the Status to “Testing – Team <#>”
 
 ## Sprint Review
 Discuss with your team (Dev & Test) the following three questions:
