@@ -23,7 +23,7 @@ The public is now demanding drawings of cars and boats. These will fetch bigger 
       1. Sailboat
          - [https://www.online-coloring.com/coloring-page/sailing-boat-over-the-blue-waves-520.html](https://www.online-coloring.com/coloring-page/sailing-boat-over-the-blue-waves-520.html)
       1. Submarine
-         -[https://www.online-coloring.com/coloring-page/yellow-submarine-854.html](https://www.online-coloring.com/coloring-page/yellow-submarine-854.html) 
+         - [https://www.online-coloring.com/coloring-page/yellow-submarine-854.html](https://www.online-coloring.com/coloring-page/yellow-submarine-854.html) 
 1. Create issues in GitHub that have the following characteristics:
       - Status: Market
       - Labels: \<Batch Size>, \<Price>
