@@ -11,7 +11,7 @@ You will also train one other person on how to deploy a batch of products, and y
    - This person will now be able to create an issue with a batch of products and set the status to "Release".
 
 ## Sprint Execution
-1. Create issues with links to completed drawings as before.
+1. Create batch issues with sub-issues of completed drawings as before.
     - If one of the issues is labeled "Hacked" the batch issue cannot be moved to "Deployment" until it is labeled "Patched"
 1. Fulfill whatever role you were cross-trained in, as needed.
 
