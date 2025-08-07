@@ -8,7 +8,7 @@ You are an art expert in the world of children's coloured drawings. You know wha
 
 # Actions This Sprint
 ## Setup
-1. Select a drawing URL from the following categories. (You can choose the same URL more than once.)
+1. Select drawing URLs from the following categories. (You can choose the same URL more than once.)
    - **Dog** (_Batch Size: 6, Price: 150_) Max: 3 issues
       1. Puppy Sitting
          - [https://www.online-coloring.com/coloring-page/cute-puppy-sitting-on-ground-1658.html](https://www.online-coloring.com/coloring-page/cute-puppy-sitting-on-ground-1658.html)
