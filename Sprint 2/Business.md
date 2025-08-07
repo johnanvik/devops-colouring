@@ -9,7 +9,7 @@ The public is now demanding drawings of cars and boats. These will fetch bigger 
    - Dog: 75 (max: 3 issues)
    - Cat: 50 (max: 2 issues)
    - Bird: 35 (max: 4 issues)
-1. Select drawings from the two new categories:
+1. Select drawing URLs from the following categories. (You can choose the same URL more than once.)
    - **Car** (_Batch Size: 3, Price: 150_) Max: 5 issues
      1. Volkswagen Bus
         - [https://www.online-coloring.com/coloring-page/cartoon-volkswagen-bus-1634.html](https://www.online-coloring.com/coloring-page/cartoon-volkswagen-bus-1634.html)
