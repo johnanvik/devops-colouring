@@ -7,25 +7,31 @@ With new car and boat drawings now on in the market, these drawings don't sell a
 
 # Actions This Sprint
 ## Setup
-1. Change the Price label on any remaining items with a Market status (see table) and their Batch Size to 1.
-1. Select a drawing for each of the two new categories (top two rows).
+2. Change the Price label on any remaining items with a Market status:
+   - Dog: 35 (max: 3 issues)
+   - Cat: 25 (max: 2 issues)
+   - Bird: 15 (max: 4 issues)
+   - Car: 75 (max: 5 issues)
+   - Boat: 90 (max: 4 issues)
+3. Set all remaining Market items to Batch Size to 1.
+1. Select drawing URLs from the following categories. (You can choose the same URL more than once.)
+   - **Aliens** (_Batch Size: 1, Price: 75_) Max: 3 issues
+     1. Four Monsters
+        - [https://www.online-coloring.com/coloring-page/funny-monsters-1669.html](https://www.online-coloring.com/coloring-page/funny-monsters-1669.html)
+     3. Alien in UFO
+        - [https://www.online-coloring.com/coloring-page/funny-alien-1338.html](https://www.online-coloring.com/coloring-page/funny-alien-1338.html)
+   - **Unicorn** (_Batch Size: 1, Price: 50_) Max: 8 issues
+     1. Unicorn Head
+        - [https://www.online-coloring.com/coloring-page/cute-unicorn-face-1114.html](https://www.online-coloring.com/coloring-page/cute-unicorn-face-1114.html)
+      1. Unicorn
+         - [https://www.online-coloring.com/coloring-page/cartoon-unicorn-832.html](https://www.online-coloring.com/coloring-page/cartoon-unicorn-832.html)
+      1. Bunny riding Unicorn
+         - [https://www.online-coloring.com/coloring-page/bunny-riding-a-unicorn-1149.html](https://www.online-coloring.com/coloring-page/bunny-riding-a-unicorn-1149.html)
 1. Create issues in GitHub that have the following characteristics:
       - Status: Market
       - Labels: Batch Size - 1, \<Price>
       - Description: \<URL of the Drawing to be Coloured>
  
-   
-| Category | URL | Batch Size | Price | Demand | Issues (Total) |
-|----------|-----|------------|-------|--------|---|
-| Aliens | https://www.online-coloring.com/56-printables-aliens | 1 | 75 | 3 | 3 issues|
-| Unicorn | https://www.online-coloring.com/207-printables-unicorn | 1 | 50 | 8 | 8 issues|
-| Car | https://www.online-coloring.com/22-printables-cars | 1 | 25 | 15 | - |
-| Boat | https://www.online-coloring.com/106-printables-boats | 1 | 30 | 16 | - |
-| Dog | https://www.online-coloring.com/4-printables-dogs | 5 | 4 | 15 | - |
-| Cat | https://www.online-coloring.com/5-printables-cats/ | 1 | 8 | 6 | - |
-| Bird | https://www.online-coloring.com/26-printables-birds/ | 1 | 4 | 16 | - |
-
-
  ## Sprint Execution
 1. Examine the issues with the Production status.
    - If your expectations are met, change the issue's status to Accepted.
