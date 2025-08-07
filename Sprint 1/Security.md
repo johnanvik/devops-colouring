@@ -7,27 +7,20 @@ You are a security engineer for a children's colouring drawing company.
 
 # Actions This Sprint
 ## Setup
-1. Depending on the size of the release batch, roll a different die:
-- **Batch Size 2**
-   - Roll a [4-sided die](https://rolladie.net/roll-a-d4-die)
+1. Roll a 4-sided die to see if a completed issue has a securoty flaw:
+   - [4-sided die](https://rolladie.net/roll-a-d4-die)
    - _Security Flaw_: Rolled a 4.
-- **Batch Size 4**
-   - Roll a [6-sided die](https://rolladie.net/roll-a-d6-die)
-   - _Security Flaw_: Rolled a 5 or 6.
-- **Batch Size 6**
-   - Roll a [8-sided die](https://rolladie.net/roll-a-d8-die)
-   - _Security Flaw_: Rolled a 7 or 8.
 2. Clicking the link will roll the die.
 
 ## Sprint Execution
 1. Monitor the "Security" board for released batches of drawings.
-2. Roll a die for each issue that appears in the "Security" board.
+2. Click on the issue  
+1. Roll a die for each issue listed as a sub-issue.
 1. **Security flaw**:
-   - Choose one of the items to have the flaw.
    - Add a comment to the issue.
         - Example: "Issue 7 has a security flaw - redo"
         - Example: "Issue 7 - A blue nose on a dog is a security flaw"
-   - Set the status to "Development - \<Team Number>"
+   - Set the Status to "Development - \<Team Number>"
 1. **No security flaw**:
     - Change the status to "Deployment"
 
