@@ -44,8 +44,10 @@ You are a software developer for a children's colouring drawing company. However
        - **Leave the drawing window open in case you need to change your drawing.**
     1. Set the Status to “Testing – Team <#>”
 1. If an issue is returned with a security flaw:
-    1. Close the issue.
-    1. Create a new issue and attach your image to it.
+    1. Make a change to your drawing
+       - Security may give specific instructions to follow.
+          -  e.g. _A dog with a blue nose is a security issue._ --> Change the colour of the dog's nose.
+    3. Replace the attached drawing with the updated one.
 1. If an issue is returned as not meeting the client's needs:
     1. Remove the incorrect drawing.
     1. Modify your drawing to address the client's needs.
