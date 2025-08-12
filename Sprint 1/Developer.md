@@ -6,7 +6,7 @@ You are a software developer for a children's colouring drawing company. However
 
 # Actions This Sprint
 ## Sprint Planning
-1. As a development team, select a request from the “Market” and change the status to "Development - Team <#>"
+1. As a development team, select a product request from the “Market” and change the status to "Development - Team <#>"   
 1. Create a new issue with the URL from the selected issue for completing one item in the batch
    - Click "Add item" at the bottom of the "Development - \<Team Number>" column to create a new issue.
    - Enter the name of the product (i.e. the title of the issue your team selected)
@@ -31,6 +31,8 @@ You are a software developer for a children's colouring drawing company. However
    - Select your team's number.
    - Click outside the label selection box to close it.
 1. Close the issue window.
+2. As needed, create more issues to match the batch size of the product request.
+3. Set the status of the product request to "Release".
 1. Wait for the start of the sprint.
 
 ## Sprint Execution
