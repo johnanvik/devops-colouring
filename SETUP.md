@@ -1,9 +1,10 @@
 # Setting Up the Activity
-1. "Use this template" to create copy of repo
-2. In Settings, turn on Issues
-3. Go to Projects
+1. Click the button "Use this template" in the upper right corner to create a new copy of the repository.
+2. In Settings, turn on Issues (if not already done so).
+3. Go to Projects (tab in the middle at the top of the window)
 4. Click "New project"
 5. Select "DevSecOps Adventure" from "From your organization"
+6. Click "Create Project"
 
 # Adding Collaborators
 See https://www.blinkops.com/blog/how-to-add-collaborators-to-your-github-repository
