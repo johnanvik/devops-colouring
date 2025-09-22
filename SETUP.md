@@ -15,5 +15,7 @@ Use script at https://josh-ops.com/posts/github-script-to-add-users-to-teams/
 Collaborators need to accept the invite before they can be added to the project.
 Script to add to project?
 
+See https://josh-ops.com/posts/github-script-to-add-users-to-project/
+
 # Training
 TODO: Create a tutorial video showing how to use GitHub project (or find one?)
