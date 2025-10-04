@@ -7,11 +7,16 @@
 1. Create a Free organization at https://github.com/organizations/plan
    - A suggested name would be a combination of the course (e.g. CPSC 3720) and the semester (Fall 2025)
 2. Create a team for the organization called "ITS DevSecOps"
+    - Leave the visibility and notifications set to default values.
 
 ## Create the ITS DevSecOps Adventure repository
+1. Return to https://github.com/johnanvik/devops-colouring
 1. Click the button "Use this template" in the upper right corner to create a new copy of the repository.
+1. Change the owner of the repository to the newly created organization.   
 1. Call the new repository "ITS DevSecOps Adventure"
-2. In Settings, turn on Issues (if not already done so).
+1. Leave the visibility as "Private"
+1. Create the repository by clicking "Create repository"
+2. In `Settings`, under `Features`, turn on `Issues` (if not already done so).
 
 ## Create the ITS DevSecOps Adventure project
 1. Go to https://github.com/orgs/DevSecOpsAdventure/projects/2
@@ -23,10 +28,22 @@
 
 # Adding Collaborators
 ## Adding students to the project's team
-1. Create a CSV file called `students.csv`
-1. Add the GitHub user names of all the students, one per line.
-1. Run  `./add-users-to-team-from-list.sh students.csv <org> "ITS DevSecOps"` where:
-    - \<org> is organization you created for this activity.
+1. Make a local clone of https://github.com/johnanvik/devops-colouring 
+1. Create a CSV file called `students.csv` in the scripts folder
+1. Add the GitHub user names of all the students to the CSV file, one user name per line.
+1. On a Unix command-line run the following commands:
+   - `gh auth login`
+        - Log into GitHub from the commandline
+        - You may need to create a fine-grained personal access token for the organization (https://docs.github.com/en/organizations/managing-programmatic-access-to-your-organization/setting-a-personal-access-token-policy-for-your-organization)
+           - Go to `Organizations` under your account  
+           - Set the owner to the created organization
+           - Set Repository Access to "All repositories"
+           - Set the permissions to "Adminstrator"
+    - `./add-users-to-team-from-list.sh students.csv <org> its-devsecops`
+        - \<org> is organization you created for this activity.
+        - DOESN"T WORK! GET THE FOLLOWING: ![alt text](image.png)
+
+    
 1. Students will need to accept the invite to the team before they can be added to the project.
 
 ## Adding students to the project
