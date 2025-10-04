@@ -28,6 +28,9 @@
 
 # Adding Collaborators
 ## Adding students to the project's team
+
+### For now, this needs to be done manually by sending an invite to each student
+
 1. Make a local clone of https://github.com/johnanvik/devops-colouring 
 1. Create a CSV file called `students.csv` in the scripts folder
 1. Add the GitHub user names of all the students to the CSV file, one user name per line.
@@ -47,6 +50,7 @@
 1. Students will need to accept the invite to the team before they can be added to the project.
 
 ## Adding students to the project
+### For now, this needs to be done manually AFTER sending an invite to each student and they accept
 1. Run `./add-all-students-to-project.sh <org> "ITS DevSecOps Adventure" <project-number>`
  - \<org> is organization you created for this activity.
  - \<project-number> is the number appearing at the end of the URL for your project (e.g. "1")
