@@ -25,6 +25,11 @@
 1. Enter "ITS DevSecOps Adventure" as the name of the project.
 1. Click "Use Template"
 1. (Needs to be set to private?)
+### Giving students permission to the project board
+1. Go to `Settings` of the project board (three dots on right, under the profile picture)
+1. Select `Manage Access` from the left-side panel.
+1. Enter "ITS DevSecOps" (the team you created) inthe `Invite Collaborators" search.
+1. Add the team with `Write` permissions
 
 # Adding Collaborators
 ## Adding students to the project's team
@@ -51,6 +56,9 @@
 
 ## Adding students to the project
 ### For now, this needs to be done manually AFTER sending an invite to each student and they accept
+
+
+
 1. Run `./add-all-students-to-project.sh <org> "ITS DevSecOps Adventure" <project-number>`
  - \<org> is organization you created for this activity.
  - \<project-number> is the number appearing at the end of the URL for your project (e.g. "1")

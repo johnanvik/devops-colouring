@@ -37,4 +37,4 @@ Discuss with your team (Development, Testing, Security) the following three ques
 1. What are two changes your team would like to make in the next sprint?
 
 ## Sprint Retrospective
-Complete the Sprint Retrospective Survey (URL) as team.
+Complete the [Sprint Retrospective Survey](https://uleth.qualtrics.com/jfe/form/SV_8rkRs9SYq0ddBt4) as team.
