@@ -8,6 +8,10 @@
    - A suggested name would be a combination of the course (e.g. CPSC 3720) and the semester (Fall 2025)
 2. Create a team for the organization called "ITS DevSecOps"
     - Leave the visibility and notifications set to default values.
+1. Set the default permissions for team members to be `Write` so students can create issues.
+   - Go to `Settings`
+   - Select `Member Privilages`
+   - Set `Base permissions` to `Write`
 
 ## Create the ITS DevSecOps Adventure repository
 1. Return to https://github.com/johnanvik/devops-colouring
@@ -17,6 +21,13 @@
 1. Leave the visibility as "Private"
 1. Create the repository by clicking "Create repository"
 2. In `Settings`, under `Features`, turn on `Issues` (if not already done so).
+
+## Configure the repository (requires GitHub CLI to be installed)
+1. Open a terminal 
+1. Login using the GitHub CLI
+   - `gh auth login` and follow the prompts
+1. Run the script `copylabels.sh` in the `scripts` folder
+   - `scripts/copylabels.sh <organization name>
 
 ## Create the ITS DevSecOps Adventure project
 1. Go to https://github.com/orgs/DevSecOpsAdventure/projects/2

@@ -38,19 +38,9 @@ You are an art expert in the world of children's coloured drawings. You know wha
       - Labels: \<Batch Size>, \<Price>
       - Description: \<URL of the Drawing to be Coloured>
 
-
-
-   
-| Category | URL | Batch Size | Price | Demand | Issues (Total) |
-|-|-|-|-|-| -|
-| Dog | https://www.online-coloring.com/4-printables-dogs | 5 | 150 | 15 | 3 issues |
-| Cat | https://www.online-coloring.com/5-printables-cats/ | 3 | 100 | 6 | 2 issues |
-| Bird | https://www.online-coloring.com/26-printables-birds/ | 4 | 75 | 16 | 4 issues |
-
-
  ## Sprint Execution
-- Examine the issues with the Production status.
-   - If your expectations are met, change the issue's status to Accepted.
+- Examine the issues with the `Production` status.
+   - If your expectations are met, change the issue's status to `Accepted`.
    - If your expectations are not met, add a comment about what is wrong and set the issue's status to Development for the team that created it.
       - You immediately reject any drawing for a development team that has not asked what your expectations are!
 

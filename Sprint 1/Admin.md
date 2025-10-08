@@ -6,11 +6,11 @@ You are a systems administrator for a children's colouring drawing company.
 
 # Actions This Sprint
 ## Setup and Sprint Execution
-1. Monitor the System Admin board for issues with a "Deployment" status.
+1. Monitor the `Admin` board for issues with a `Deployment` status.
     - If not in a code freeze:
-        - Set status of issue to "Production"
+        - Set status of issue to `Production`
     - If in code freeze:
-        - Add label "Code Freeze" to the issue.
+        - Add label `Code Freeze` to the issue.
 1. A code freeze happens when there is 2 minutes left in the Sprint Execution.
 
 ## Sprint Review

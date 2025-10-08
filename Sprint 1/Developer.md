@@ -6,7 +6,8 @@ You are a software developer for a children's colouring drawing company. However
 
 # Actions This Sprint
 ## Sprint Planning
-1. As a development team, select a product request from the “Market” and change the status to "Development - Team <#>"   
+1. Go to the `Development` tab of the project board.
+1. As a development team, select a product request from the `“`Market` and change the status to "Development - Team <#>"   
 1. Create a new issue with the URL from the selected issue for completing one item in the batch
    - Click "Add item" at the bottom of the "Development - \<Team Number>" column to create a new issue.
    - Enter the name of the product (i.e. the title of the issue your team selected)
