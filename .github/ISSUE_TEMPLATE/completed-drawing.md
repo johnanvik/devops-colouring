@@ -1,7 +1,7 @@
 ---
 name: Completed Drawing
 about: A coloured drawing
-title: "[DRAWING] <Description of Drawing>"
+title: "[DRAWING]"
 labels: ''
 assignees: ''
 
