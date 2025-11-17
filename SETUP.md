@@ -28,7 +28,10 @@
 1. Login using the GitHub CLI
    - `gh auth login` and follow the prompts
 1. Run the script `copylabels.sh` in the `scripts` folder
-   - `scripts/copylabels.sh <organization name>
+   - `scripts/copylabels.sh <organization name> <repository name>
+      - Example: scripts/copylabels.sh CPSC3720Fall2025 ITS-DevSecOps-Adventure
+1. Confirm that labels were created.
+     - Expected labels include "Batch Size", "Price", "Team 1", etc.
 
 ## Create the ITS DevSecOps Adventure project
 1. Go to https://github.com/orgs/DevSecOpsAdventure/projects/2
