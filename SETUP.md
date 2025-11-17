@@ -10,8 +10,8 @@
     - Leave the visibility as `Visible`
     - Change notifications to `Disabled`
 1. Set the default permissions for team members to be `Write` so students can create issues.
-   - Go to `Settings`
-   - Select `Member Privilages`
+   - Go to `Settings` for the Organization
+   - Select `Member Privileges`
    - Set `Base permissions` to `Write`
 
 ## Create the ITS DevSecOps Adventure repository
