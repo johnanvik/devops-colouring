@@ -5,18 +5,28 @@ If a product that is set for release is hacked, you will have to wait for securi
 
 You will also train one other person on how to deploy a batch of products, and yourself become cross-trained in one other role, to help with any bottlenecks.
 
-# Actions This Sprint
-## Setup
-1. Talk to one other person and explain what you do.
-   - This person will now be able to create an issue with a batch of products and set the status to "Release".
+# Sprint Activities
+Refer to the **Sprint 1** document for a refresher of the role.
+
+## Cross-train for Another Role
+1. Roll a [4-sided die](https://rolladie.net/roll-a-d4-die).
+1. Read the **Sprint 1** document for the rolled role:    
+    1. Developer
+    1. Tester
+    1. Security
+    1. Admin
+
+**You are now able to do this role, if needed.**
 
 ## Sprint Execution
+Refer to the **Sprint 1** document for a refresher of the role.
+
 1. Create batch issues with sub-issues of completed drawings as before.
-    - If one of the issues is labeled "Hacked" the batch issue cannot be moved to "Deployment" until it is labeled "Patched"
+    - Issues labeled `Hacked` cannot be part of a batch issue until it is labeled `Patched`
 1. Fulfill whatever role you were cross-trained in, as needed.
 
 ## Sprint Review
-Discuss with your team (Release and System Admin) the following three questions:
+Discuss with your Business and Operations team (Business, Release and System Admin) the following three questions:
 1. What are the top two things that went well?
 1. What are the top two things that did not go so well?
 1. What are two changes your team would like to make in the next sprint?

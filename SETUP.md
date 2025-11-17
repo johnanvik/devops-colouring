@@ -37,10 +37,17 @@
 1. Go to https://github.com/orgs/DevSecOpsAdventure/projects/2
 1. Click "Use this template" in the upper righthand corner.
 1. Select the orgranization you created as the `Owner`.
-1. Enter "ITS DevSecOps Adventure" as the name of the project.
-1. Click "Use Template"
+1. Enter `ITS DevSecOps Adventure` as the name of the project.
+1. Click **Use Template**
 1. (Needs to be set to private?)
    
+
+## Link the project to the repository
+1. Click `Projects` at the top of the repository page.
+1. Click **Link New Project**
+1. Select `ITS DevSecOps Adventure`
+1. Click **Submit**
+
 ### Giving students permission to the project board
 1. Go to `Settings` of the project board (three dots on right, under the profile picture)
 2. Set the `Default Repository` to the newly created one.
