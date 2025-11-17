@@ -7,7 +7,8 @@
 1. Create a Free organization at https://github.com/organizations/plan
    - A suggested name would be a combination of the course (e.g. CPSC 3720) and the semester (Fall 2025)
 2. Create a team for the organization called "ITS DevSecOps"
-    - Leave the visibility and notifications set to default values.
+    - Leave the visibility as `Visible`
+    - Change notifications to `Disabled`
 1. Set the default permissions for team members to be `Write` so students can create issues.
    - Go to `Settings`
    - Select `Member Privilages`
