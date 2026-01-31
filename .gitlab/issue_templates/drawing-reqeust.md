@@ -1,9 +1,3 @@
----
-name: Drawing Request
-about: A request for a coloured drawing
-title: "[PRODUCT]"
-labels: ''
-assignees: ''
----
+A set of coloured drawings from the following URL.
 
-**URL of the Drawing**
+<**Insert URL of the Drawing**>

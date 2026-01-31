@@ -8,6 +8,11 @@
       - Failed the security check.
       - Not accepted by `Buisness`
 
+## Sprint Planning
+1. Read the `Definition of Done` document to know:  
+    - The requirements of a deployment package.
+
+
 ## Create Release Packages
 1. Once there are enough issues from a team to meet the batch requirements for a product request:
    1. Note the issue ids of the issues to be batched.

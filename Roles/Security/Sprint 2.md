@@ -1,39 +1,40 @@
 # Cyberattacks!
-Hackers have taken notice of your systems as the company has become more well-known. You will now have to deal with products that become compromised by cyberattacks.
+Hackers have taken notice of your systems as the company has become more well known. You will now have to deal with products that become compromised by cyberattacks.
 
-If a product in development or testing is hacked, you will identify the product as compromised so that the system administration can patch it.
+If a product you are working is hacked, you will have to wait for security and system administation to patch it before it can be submitted to `Testing`.
 
-Recognizing the importance of having security issues addressed sooner in the development cycle, you will be working closely with the development and testing team.
+You will also train one other person on how to create a product, and yourself become cross-trained in one other role, to help with any bottlenecks.
 
-You will also become cross-trained in one other role, to help with any bottlenecks.
+Finally, the DevOps team will _shift left_ on security. The Security team has provided automated tools that allow developers to run their own security tests on their work. This speeds up the development process by allowing for early security testing and correction before the product gets too far in the development pipeline.
 
-# Sprint Activities
-Refer to the **Sprint 1** document for a refresher of the role.
+# Sprint Planning
+1. (If needed) Refer to the [Sprint 1](./Sprint%201.md) document for a refresher of the role.
 
 ## Cross-train for Another Role
 1. Roll a [4-sided die](https://rolladie.net/roll-a-d4-die).
 1. Read the **Sprint 1** document for the rolled role:    
-    1. Developer
-    1. Tester
-    1. Security
-    1. Admin
+    1. [Tester](../Testing/Sprint%201.md)
+    1. [Developer](../Developer/Sprint%201.md)
+    1. [System Administrator](../Admin/Sprint%201.md)
+    1. Reroll.
 
 **You are now able to do this role, if needed.**
 
-# Actions This Sprint
-## Shift-Left on Security
-1. Explain to your development team how to know if their issue will have a security flaw.
-   - Developers and testers can now identify and address a security issue early in the development process.
-   - A developer or tester who runs and passes a security check for their issue adds the `Security Checked` label to the issue.
-      - Issues with the `Security Checked` label do not require further examination by Security.    
-        
-## Sprint Execution
-1. Complete this part as in Sprint 1.
-   - If an issue has a `Security Checked` label, don't check it. 
-1. Monitor the `Development` and `Testing` columns.
-   - If an issues has a `Hacked` label:
-      1. Change the **Hacked** label to **Compromised**
-      1. Change the **Status** to **Security**
+# Sprint Execution
+1. Moniter the `Security` column for completed product requests.
+1. Perform security testing of the products and product requests as in Sprint 1.
+   1. If a product does not have a `Security Passed` status:
+      1. Roll [4-sided die](https://rolladie.net/roll-a-d4-die)
+      1. **Rolled 1-3** (No Security Flaw)
+         1. Set the **Status** to `Security Passed`
+      1. **Rolled 4** (Security Flaw)
+         1. Set the **Status** of the product to `Security Failed`            
+         1. Set the **Status** of the product request to `In Progress`
+               - The developer will need to fix the security flaw.
+   1. If a product has the label `Hacked`
+      1. Add the `Compromised` label to the product request.
+      1. Set the label of the product to `Compromised`.
+      1. Set the status of the product request to `To Deploy` 
 1. Fulfill whatever role you were cross-trained in, as needed. 
 
 

@@ -1,54 +1,49 @@
 # Cyberattacks!
 Hackers have taken notice of your systems as the company has become more well known. You will now have to deal with products that become compromised by cyberattacks.
 
-If a product you are working is hacked, you will have to wait for security and system administation to patch it before it can be submitted to Testing.
+If a product you are working is hacked, you will have to wait for security and system administation to patch it before it can be submitted to `Testing`.
 
 You will also train one other person on how to create a product, and yourself become cross-trained in one other role, to help with any bottlenecks.
 
-# Sprint Activities
-Refer to the **Sprint 1** document for a refresher of the role.
+Finally, the DevOps team will _shift left_ on security. The Security team has provided automated tools that allow developers to run their own security tests on their work. This speeds up the development process by allowing for early security testing and correction before the product gets too far in the development pipeline.
+
+# Sprint Planning
+1. (If needed) Refer to the [Sprint 1](./Sprint%201.md) document for a refresher of the role.
 
 ## Cross-train for Another Role
 1. Roll a [4-sided die](https://rolladie.net/roll-a-d4-die).
 1. Read the **Sprint 1** document for the rolled role:    
-    1. Tester
-    1. Release
-    1. Security
-    1. Admin
+    1. [Tester](../Testing/Sprint%201.md)
+    1. [Security](../Security/Sprint%201.md)
+    1. [System Administrator](../Admin/Sprint%201.md)
+    1. Reroll.
 
 **You are now able to do this role, if needed.**
 
-## Shift-Left on Security and Being Hacked
-1. The `Security` person will explain how to know if your issue will have a security flaw.
-1. If your issue gets labeled with **Hacked**
-    - Wait until the **Hacked** label is removed and the **Patched** label is added before changing the **Status** to **Testing**
+## Shift-Left on Security
+1. The security of a product is tested by rolling a [4-sided die](https://rolladie.net/roll-a-d4-die) die.    
+    - Rolling a 4 means there is a security flaw that needs to be corrected. 
 
-## Sprint Planning - Team
-1. Plan your sprint as in Sprint 1.
-
-## Sprint Execution - Individual
-### Colour a Drawing
-1. Create coloured drawings as in Sprint 1.
-
-### Submit Your Work
-1. Complete this part as in Sprint 1.
+# Sprint Execution (Individual)
+## Complete Work
+1. Contribute to completing the product request from Sprint 1.
 1. After adding a drawing to your issue:
-    1. Check if your work has a security flaw.
-        - [4-sided die](https://rolladie.net/roll-a-d4-die)
-        - **Security Flaw** 
-            1. Change something with your drawing.
-            1. Attached the new drawing to the issue.
-            1. Check for a security flaw.
-        - **No Security Flaw**
-            1. Add the label **Security Checked**
-            1. Change the **Status** to **Testing**
-                - Dropdown under `Projects` on the lefthand side.
-
-
-### Keep Working
+    1. Roll [4-sided die](https://rolladie.net/roll-a-d4-die)
+    1. **Rolled 1-3** (No Security Flaw)
+        1. Set the **Status** to `Security Passed`
+    1. **Rolled 4** (Security Flaw)
+        1. Count to 10 to simulate fixing the problem.
+        1. Recheck for a security flaw.
 1. Fulfill whatever role you were cross-trained in, as needed.
-1. Address any issues returned by `Buisness`, `Testing` or `Security` as in Sprint 1.
-1. Colour more drawings to meet the batch size requirements.
+1. Address any issues returned by `Business`, `Testing` or `Security` as in Sprint 1.
+1. Contribute to completing any new product requests the team selects.
+      
+# Sprint Execution (Team)
+1. Set the status of the product request to `Testing` when:
+    1. All tasks have status `Ready` or `Security Passed`.
+1. If one of the products has the label `Hacked`
+    1. Set the **Status** to `Security`.
+1. Select a new product request to complete.
 
 # Sprint Review
 Discuss with your Scrum team (Development, Testing, Security) the following three questions:
