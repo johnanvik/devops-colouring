@@ -1,6 +1,6 @@
 # Starting Place
 
-1. Go to the `Buisness` tab of the project board.
+1. Go to the `Business` tab of the project board.
    - In the left menu select `Plan` --> `Issue Boards`
    - Select `Business` from the dropdown.
 
