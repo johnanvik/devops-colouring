@@ -1,56 +1,83 @@
-# Sprint Activities
-## Starting Place
-1. Go to the `Development` tab of the project board.
+# Starting Place
 
-## Sprint Planning - Team
-1. As a development team, select a product request from the `Market` colomn
-1. Move the product request to the `Backlog` column to claim it.
-1. Add the team's label the issue.
-   1. Click on the name of the product request.
-   1. Click on **Labels** on the righthand side.
-   1. Select the label with your team name (e.g. `Team 1`).
-1. Set the **Status** of the product request to **Release**
-   - The issue will be used by the `Release` team to batch your work.
+1. Go to the `Development` tab of the project board.
+   ![github projects business board](../../images/development-board.png)
+
+# Sprint Planning (Team)
+
 1. Read the `Definition of Done` document to know the requirements of a completed drawing.
+
+## Offered Work
+
+1. Check to see if an issue in `Market` had been offered to your team.
+   - Work is offered if the issue has your team's label on it.
+1. Move the issue to `In Progress` to accept the work.
+
+## Getting Client Feedback
+
 1. If the team or a team member has a question about the product request:
    1. Add a comment with the question.
-   1. Set the **Status** of the issue to **Question**
+   1. Set the **Status** of the issue to `Feedback`
 
-## Sprint Execution - Individual
-### Colour a Drawing
+# Sprint Execution (Individual)
+
+## Colour a Drawing
+
+1. Create a task for your work.
+   - Open the issue
+   - Scroll down to `Child Items`
+   - Click `Add` dropdown
+   - Select `New Task`
+   - Enter a description of how you plan to colour the drawing (e.g. "Blue puppy")
 1. Colour a drawing from the URL of the product request.
 1. Download the completed drawing.
-   - Click the icon under the drawing that looks like a floppy disk holding a camera and picture.
+   - Click the floppy disk holding a camera and a picture.
    - **Leave the drawing window open in case you need to change your drawing.**
 
-### Submit Your Work
-1. Click **Add Item** at the bottom of the `Development` column.
-1. Enter a short description of how you coloured the image (e.g. "Blue and Yellow Dog")
-1. Select the **Completed Drawing** issue template.
-1. Click **Paste, drop or click to add files** under the comment box to attach your drawing
-   - You may need to scroll down to see the button.
-1. Click **Assignee** to assign the issue to yourself.
-1. Click **Labels** and select:
-   1. Your team's name.
-   1. The batch size from the product request.
-   1. The price from the product request.
-1. Click **Create**.
-1. Click on the title of your issue.
-1. Change the **Status** to **Testing**
-   - Dropdown under `Projects` on the lefthand side.
+## Submit Your Work
 
-### Keep Working
-1. Address any issues returned by `Buisness`, `Testing` or `Security` that you created.
+1. Open your task.
+   - Click **Issues** in the left-side menu and find your task.
+   - Click the name of your task in the `Child Items` of the team's product request issue.
+1. Assign the task to yourself.
+   - Click `None - assign yourself` in the **Assignees** section.
+
+1. Attach the file you downloaded.
+   - Scroll down to the **Activity** section.
+   - Select the `Attach file or image` icon (i.e. paper clip)
+   - Click 'Comment'
+
+1. Change the status of the task to `Ready`
+
+## Address Feedback
+
+1. Address any issues returned by `Business`, `Testing` or `Security`.
    1. Make requested changes.
    1. Attach the updated drawing.
+   1. Remove the label `Needs Work` from the product request.
    1. Set the **Status** to `Testing`.
-1. Colour more drawings to meet the batch size requirements.
+
+# Sprint Execution (Team)
+
+1. Set the status of the product request to `Testing` when all tasks have status `Ready`.
+
+## Work for Hire
+
+1. Select **one** product request from the `Market` column that does not have a team label.
+1. Add your team's label.
+   1. Click on the issue's name.
+   1. Find the `Labels` section
+      - A window appears on the right when the issue title is clicked.
+   1. Click `Edit`
+   1. Search for your team's number.
+   1. Click `Apply`
+1. Move the issue to the `In Progress` column.
+1. Complete the product request.
 
 # Sprint Review
-Discuss with your team (Dev & Test) the following three questions:
+
+Discuss with your team (**Development** & **Testing**) the following three questions:
+
 1. What are the top two things that went well?
 1. What are the top two things that did not go so well?
 1. What are two changes your team would like to make in the next sprint?
-
-# Sprint Retrospective
-Complete the [Sprint Retrospective Survey](https://uleth.qualtrics.com/jfe/form/SV_8rkRs9SYq0ddBt4) as team (Developer, Tester).
