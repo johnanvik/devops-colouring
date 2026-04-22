@@ -1,8 +1,7 @@
 # Starting Place
 
 1. Go to the `Security` tab of the project board.
-   - In the left menu select `Plan` --> `Issue Boards`
-   - Select `Security` from the dropdown.
+   ![github projects business board](../../images/security-board.png)
 
 # Sprint Planning
 

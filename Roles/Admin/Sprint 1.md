@@ -1,8 +1,7 @@
 # Starting Place
 
-1. Go to the `System Administration` tab of the project board.
-   - In the left menu select `Plan` --> `Issue Boards`
-   - Select `System Administration` from the dropdown.
+1. Go to the `Admin` tab of the project board.
+   ![github projects admin board](../../images/admin-board.png)
 
 # Sprint Planning
 

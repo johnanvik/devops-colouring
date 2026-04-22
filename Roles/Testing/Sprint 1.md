@@ -1,8 +1,7 @@
 # Starting Place
 
 1. Go to the `Testing` tab of the project board.
-   - In the left menu select `Plan` --> `Issue Boards`
-   - Select `Testing` from the dropdown.
+   ![github projects business board](../../images/testing-board.png)
 
 # Sprint Planning
 

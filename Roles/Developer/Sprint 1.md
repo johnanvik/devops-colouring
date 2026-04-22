@@ -1,9 +1,7 @@
 # Starting Place
 
 1. Go to the `Development` tab of the project board.
-
-- In the left menu select `Plan` --> `Issue Boards`
-- Select `Development` from the dropdown.
+   ![github projects business board](../../images/development-board.png)
 
 # Sprint Planning (Team)
 
