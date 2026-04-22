@@ -34,7 +34,7 @@
      - Expected labels include "Batch Size", "Price", "Team 1", etc.
 
 ## Create the ITS DevSecOps Adventure project
-1. Go to https://github.com/orgs/DevSecOpsAdventure/projects/2
+1. Go to https://github.com/orgs/DevSecOpsAdventure/projects/15
 1. Click "Use this template" in the upper righthand corner.
 1. Select the orgranization you created as the `Owner`.
 1. Enter `ITS DevSecOps Adventure` as the name of the project.
